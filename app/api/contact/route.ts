@@ -23,6 +23,7 @@ export async function POST(req: NextRequest) {
 
     const resend = new Resend(apiKey);
     const { data, error } = await resend.emails.send({
+      // NOTE: Update 'from' once you have a verified domain in Resend
       from: 'Sanjivani FC <onboarding@resend.dev>',
       to: ['tanmaygawali68@gmail.com'],
       replyTo: email,
@@ -68,6 +69,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: error.message || 'Email service error' }, { status: 500 });
     }
 
+    console.log('✅ Email sent successfully:', data?.id);
     return NextResponse.json({ success: true, data });
   } catch (err: any) {
     console.error('API Route Error:', err);
