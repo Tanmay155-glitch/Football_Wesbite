@@ -1,0 +1,64 @@
+﻿
+> sanjivani-football-website@0.1.0 pages:build
+> npx @opennextjs/cloudflare build
+
+
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé OpenNext ΓÇö Cloudflare build Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+
+node.exe : WARN 
+OpenNext is not fully 
+compatible with 
+Windows.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\tanma\AppData
+\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (WARN OpenNext   
+  i...e with Window    
+s.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+WARN For optimal 
+performance, it is 
+recommended to use 
+Windows Subsystem for 
+Linux (WSL).
+WARN While OpenNext 
+may function on 
+Windows, it could 
+encounter 
+unpredictable failures 
+during runtime.
+App directory: D:\Football_Website
+Next.js version : 14.2.35
+ERROR Next.js version 
+14.2.35 is not 
+supported by the 
+Next.js team.
+Major versions are 
+supported for 2 years 
+from their release 
+date.
+Unsupported releases 
+may contain unpatched 
+security 
+vulnerabilities.
+See https://nextjs.org/
+support-policy for 
+more information.
+If you want to proceed 
+anyway, use the --dange
+rouslyUseUnsupportedNex
+tVersion flag.

@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"app\\\\matches\\\\page.tsx -> @/components/LeagueTable":{"id":282,"files":["static/chunks/282.cfa1f711deb8f6fd.js"]},"app\\\\virtual-pitch\\\\page.tsx -> @/components/PitchGraphic":{"id":3558,"files":["static/chunks/558.3220f7ed7c126da4.js"]}}';

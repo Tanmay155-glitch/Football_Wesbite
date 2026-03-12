@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/api/recruit/route": "app/api/recruit/route.js",
+  "/matches/page": "app/matches/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/about/page": "app/about/page.js",
+  "/recruit/page": "app/recruit/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/coach/page": "app/coach/page.js",
+  "/squad/page": "app/squad/page.js",
+  "/virtual-pitch/page": "app/virtual-pitch/page.js",
+  "/page": "app/page.js"
+}

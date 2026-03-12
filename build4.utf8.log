@@ -1,0 +1,121 @@
+﻿
+> sanjivani-football-website@0.1.0 pages:build
+> npx @opennextjs/cloudflare build
+
+
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé OpenNext ΓÇö Cloudflare build Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+
+node.exe : WARN 
+OpenNext is not fully 
+compatible with 
+Windows.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\tanma\AppData
+\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (WARN OpenNext   
+  i...e with Window    
+s.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+WARN For optimal 
+performance, it is 
+recommended to use 
+Windows Subsystem for 
+Linux (WSL).
+WARN While OpenNext 
+may function on 
+Windows, it could 
+encounter 
+unpredictable failures 
+during runtime.
+file:///D:/Football_Web
+site/node_modules/@open
+nextjs/cloudflare/dist/
+cli/build/utils/ensure-
+cf-config.js:62
+        throw new 
+Error(errorMessage);
+              ^
+
+Error: The 
+`open-next.config.ts` 
+should have a default 
+export like this:
+
+{
+  default: {
+    override: {
+      wrapper: 
+"cloudflare-node",
+      converter: 
+"edge",
+      
+proxyExternalRequest: 
+"fetch",
+      
+incrementalCache: 
+"dummy" | function,
+      tagCache: 
+"dummy" | function,
+      queue: "dummy" | 
+"direct" | function,
+    },
+  },
+  edgeExternals: 
+["node:crypto"],
+  middleware: {
+    external: true,
+    override: {
+      wrapper: 
+"cloudflare-edge",
+      converter: 
+"edge",
+      
+proxyExternalRequest: 
+"fetch",
+      
+incrementalCache: 
+"dummy" | function,
+      tagCache: 
+"dummy" | function,
+      queue: "dummy" | 
+"direct" | function,
+    },
+  },
+}
+
+
+    at 
+ensureCloudflareConfig 
+(file:///D:/Football_We
+bsite/node_modules/@ope
+nnextjs/cloudflare/dist
+/cli/build/utils/ensure
+-cf-config.js:62:15)
+    at compileConfig (f
+ile:///D:/Football_Webs
+ite/node_modules/@openn
+extjs/cloudflare/dist/c
+li/commands/utils/utils
+.js:51:5)
+    at async 
+buildCommand (file:///D
+:/Football_Website/node
+_modules/@opennextjs/cl
+oudflare/dist/cli/comma
+nds/build.js:13:34)
+
+Node.js v24.14.0
